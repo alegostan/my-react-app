@@ -1,0 +1,15 @@
+.TaskCard:hover > .Buttons button {
+    width: 1.5rem;
+    visibility: visible;
+}
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    width: 7rem;
+    max-width: 7rem;
+}
+.TaskCard button {
+    @apply ml-3 w-0  text-white rounded-lg self-center align-bottom overflow-hidden;
+}
